@@ -1,7 +1,7 @@
 
 --=== Blink.cmp ===--
 vim.pack.add({
-  { src = 'https://github.com/Saghen/blink.cmp', version = '1.*' }
+  { src = 'https://github.com/Saghen/blink.cmp', version = 'v1' }
 })
 
 -- Lazy load on first insert mode entry (may not necessary)
