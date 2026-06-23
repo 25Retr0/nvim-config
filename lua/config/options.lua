@@ -1,5 +1,4 @@
--- lua/options.lua
-
+vim.g.editorconfig = false
 vim.opt.number = true -- Show standard line numbers
 vim.opt.relativenumber = true -- Show relative distance numbers
 vim.opt.mouse = "a" -- Enable mouse mode
@@ -23,3 +22,5 @@ vim.opt.timeoutlen = 300 -- Time to wait for a mapped sequence to complete
 vim.opt.clipboard = "unnamedplus" -- Set system clipboard
 vim.opt.completeopt = { 'menu', 'menuone', 'noselect', 'popup' }
 vim.o.autocomplete = true -- enables the completion feature
+
+

@@ -1,5 +1,8 @@
-vim.g.editorconfig = false
+-- Load Plugins
+require('plugins.lsp')
+require('plugins.ui')
 
-require("options")          -- Loads lua/options.lua
-require("mappings")         -- Loads lua/mappings.lua
-require("plugins")          -- Loads lua/plugins.lua
+-- Load Config Files
+require('config.options')
+require('config.keymaps')
+require('config.autocmds')
