@@ -1,5 +1,7 @@
 ## Personal Neovim Config
 
+Neovim Version -> v0.12.3
+
 ### Plugins Used
 
  - vague.nvim (colorscheme)
