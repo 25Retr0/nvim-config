@@ -22,5 +22,4 @@ map("n", "<C-k", "<C-w>k", "Navigate window up")
 map("n", "<C-l", "<C-w>l", "Navigate window right")
 
 -- File Explorer (Netrw)
-map("n", "<leader>ex", ":Ex<CR>", "Open Netrw [Ex]plorer")
-map("n", "<leader>el", ":Ex<CR>", "Open Netrw [E]xplorer [L]eft")
+map("n", "<leader>fe", ":Ex<CR>", "Open Netrw [F]ile [E]xplorer")
