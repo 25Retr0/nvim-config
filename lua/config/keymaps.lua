@@ -14,6 +14,7 @@ map("n", "<leader>nh", ":nohl<CR>", "Clear Highlighting")
 
 -- Diagnostics
 map("n", "<leader>q", vim.diagnostic.setloclist, "Open diagnostic [Q]uickfix list")
+map("n", "<leader>d", vim.diagnostic.open_float, "Open [d]iagnostic window of hovered text")
 
 -- Window Navigation
 map("n", "<C-h", "<C-w>h", "Navigate window left")
